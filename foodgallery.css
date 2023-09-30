@@ -202,11 +202,11 @@ color: white;
 
 @media (max-width:460px) {
     .c{
-        height: 20px;
+        height: 25px;
     }
     .b{
         margin-top: -10px;
-        margin-left: -20px;
+        /* margin-left: -20px; */
         height: 230px;
         width: 100%;
         background-repeat: no-repeat;
@@ -233,7 +233,7 @@ color: white;
     }
    
   .c18{
-    margin-left: 135px;
+    margin-left: 134px;
     font-size: small;
   }
   .input-field{
