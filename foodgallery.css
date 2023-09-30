@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Coiny&family=Croissant+One&family=EB+Garamond&family=Fanwood+Text&family=Ibarra+Real+Nova&family=Luckiest+Guy&family=Merriweather&family=Paytone+One&family=Playfair+Display&family=Righteous&family=Simonetta&family=Spectral:ital,wght@1,200;1,300&family=Vollkorn&family=Young+Serif&display=swap');
+
+
+
 .c{
     height: 60px;
     width: 100%;
@@ -7,7 +11,7 @@
 
 .b3{
     color: white;
-    background-color: chocolate;
+    background-color: rgb(152, 105, 71);
     border-radius: 50px;
     font-size: 10px;
     width: 70px;
@@ -30,17 +34,19 @@ color: white;
 }
 .c1{
     font-size: xx-large;
-    color: white;
+    color: rgba(255, 255, 255, 0.525);
     top: 100px;
-    left: 400px;
+    left: 350px;
    position: absolute;
    padding: 5px;
+   font-family: 'Young Serif', serif;
 }
 
 .b2{
     position: absolute;
     font-size: 20px;
     left: 10px;
+    color: rgba(0, 0, 0, 0.984);
 
 }
 .d{
@@ -198,8 +204,36 @@ color: white;
     height: 35px;
    
 }
+.b3:hover{
+    background-color: rgba(240, 248, 255, 0.475);
+}
+.e1:hover{
+    box-shadow: 0 4px 8px 0 rgba(8, 6, 6, 0.808), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 
+}
+.e2:hover{
+    box-shadow: 0 4px 8px 0 rgba(8, 6, 6, 0.808), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 
+}
+.e3:hover{
+    box-shadow: 0 4px 8px 0 rgba(8, 6, 6, 0.808), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+}
+.c6:hover{
+    box-shadow: 0 4px 8px 0 rgba(8, 6, 6, 0.808), 0 6px 20px 0 rgba(0, 0, 0, 0.9); 
+}
+.l:hover{
+        box-shadow: 0 4px 8px 0 rgba(8, 6, 6, 0.511), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+}
+.c19{
+    margin-left: 480px;
+
+}
+a{
+    text-decoration: none;
+    color: rgba(11, 11, 11, 0.813);
+}
 @media (max-width:460px) {
     .c{
         height: 25px;
@@ -233,13 +267,18 @@ color: white;
     }
    
   .c18{
-    margin-left: 134px;
-    font-size: small;
+    margin-left: 150px;
+    font-size: x-small;
   }
   .input-field{
-    margin-left:100px ;
-    width: 200px;
+    margin-left:145px ;
+    width: 100px;
     height: 20px;
+    
   }
+.c19{
+    margin-left:120px ;
+    font-size: x-small;
+}
 
 }
